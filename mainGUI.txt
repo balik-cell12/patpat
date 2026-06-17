@@ -135,7 +135,7 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 
 nowe = false
 
-game:GetService("StarterGui"):SetCore("SendNotification", { 
+game:GetService("StarterGui"):SetCore("SendNotification"), { 
 	Title = "FLY GUI";
 	Text = "MODDED BY FISH";
 Duration = 5;
